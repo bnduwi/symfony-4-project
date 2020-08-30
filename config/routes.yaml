@@ -1,10 +1,10 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
-micro_post_home:
-    path: /
-    controller: App\Controller\MicroPostController::index
+# micro_post_home:
+#     path: /
+#     controller: App\Controller\MicroPostController::index
 
-app_lucky_number:
-    path: /test
-    controller: App\Controller\LuckyController::number
+# app_lucky_number:
+#     path: /test
+#     controller: App\Controller\LuckyController::number
