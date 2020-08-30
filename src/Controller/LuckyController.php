@@ -31,7 +31,7 @@ class LuckyController extends AbstractController
                 
             );
 
-        return new Response($html);
+        return $html;
 
         // $number = random_int(0, 100);
 
