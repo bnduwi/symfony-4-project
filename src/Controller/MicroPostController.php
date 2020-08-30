@@ -6,9 +6,6 @@ use Symfony\Component\Routing\Annotation\Route;
 use App\Repository\MicroPostRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
-/**
- * @Route("/micro-post")
- */
 class MicroPostController extends AbstractController
 {
     /**
@@ -21,9 +18,6 @@ class MicroPostController extends AbstractController
         $this->microPostRepository = $microPostRepository;
     }
 
-    /**
-     * @Route("/", name="micro_post_index")
-     */
     public function index()
     {
         $html = $this->render("micro-post/index.html.twig",
